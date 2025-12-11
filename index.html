@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Makonnen – Photography & Compositing Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header + Navigation -->
+    <header>
+    <h1>Makonnen Mekonnen – Photography & Compositing</h1>
+
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        ☰
+    </button>
+
+    <nav aria-label="Primary">
+        <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Selected Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+  <main>
+
+    <!-- About / Bio Section -->
+    <h2 id="about-heading">About Me</h2>
+    <section id="about">
+      <p>
+        I am a photographer, 2D animation compositor, and video editor. 
+        With photography I aim to use my Fujifilm X-T5 to capture candid moments, cityscapes, 
+        and scenes that convey mood and feeling.  
+      </p>
+      <p>
+        With my 2D animation compositing I use After Effects and DaVinci Resolve to create seamless 
+        integration between all assets and enhance the emotional impact of each cut.
+      </p>
+    </section>
+
+    <!-- Projects / Portfolio -->
+     <h2 id="projects-heading">Selected Work</h2>
+    <section id="projects" aria-labelledby="projects-heading">
+    
+      <!-- Project 1 -->
+      <article>
+        <figure>
+          <img src="src/Hoyofest.png" 
+               alt="Composited scene from Honkai Star Rail displayed at Hoyofest 2025.">
+          <figcaption>
+            <strong>Honkai Star Rail</strong> – Mihoyo/Hoyofest Nov 2025  
+            <br>Role: Compositing Director, Compositor  
+            <br>Tools: After Effects
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- Project 2 -->
+      <article>
+        <figure>
+          <img src="src/META_mv.png"
+               alt="META MV Harusaruhi composited shot for Andraft.">
+          <figcaption>
+            <strong>META MV Harusaruhi</strong> – Andraft  
+            <br>Role: Compositor  
+            <br>Tools: After Effects
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- Project 3 -->
+      <article>
+        <figure>
+          <img src="src/DSCF4759.JPG"
+          alt="A candid photograph taken in New York City with a Fujifilm X-T5 using a 33mm lens.">
+          <figcaption>
+            <strong>Day Out in NYC</strong> – Photography  
+            <br>Shot on a Fujifilm X-T5 with a 33mm lens
+          </figcaption>
+        </figure>
+      </article>
+
+    </section>
+
+    <!-- Contact -->
+    <h2 id="contact-heading">Contact</h2>
+    <section id="contact" aria-labelledby="contact-heading">
+      <p>For collaborations or inquiries, reach out:</p>
+
+      <ul>
+        <li>Instagram: <a href="https://instagram.com/Mak.Mekonnen">@Mak.Mekonnen</a></li>
+        <li>Twitter: <a href="https://twitter.com/MakComposite">@MakComposite</a></li>
+      </ul>
+
+      <!-- Accessible Contact Form -->
+      <form action="#" method="post" aria-describedby="contact-help">
+        <p id="contact-help">All fields marked * are required.</p>
+
+        <label for="name">Name *</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email *</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Makonnen Mekonnen – Photography & Compositing</p>
+  </footer>
+</body>
+</html>
